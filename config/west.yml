@@ -22,5 +22,3 @@ manifest:
     - name: zmk-rgbled-widget
       remote: kureyakey
       revision: main
-  self:
-    path: config
