@@ -79,12 +79,12 @@ layers:
   - {t: '''', s: '"'}
   - {t: \, s: '~'}
   - ENTER
-  - {t: ESC, h: LCTL}
-  - LEFT WIN
+  - {t: EISU, h: LCTRL}
+  - {t: KANA, h: LGUI}
   - LEFT ALT
-  - {t: INT3, h: '3'}
+  - {t: MUHENKAN, h: '3'}
   - {t: SPACE, h: '2'}
-  - {t: INT2, h: '1', type: held}
+  - {t: HENKAN, h: '1', type: held}
   - BACKSPACE
   - ENTER
   - DEL
@@ -123,12 +123,12 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - LCTRL
-  - LEFT WIN
+  - {t: EISU, h: LCTRL}
+  - {t: KANA, h: LGUI}
   - LEFT ALT
-  - {t: INT HENKAN, h: '3'}
+  - {t: MUHENKAN, h: '3'}
   - {t: SPACE, h: '2', type: held}
-  - {t: INT MUHENKAN, h: '1'}
+  - {t: HENKAN, h: '1'}
   - BACKSPACE
   - ENTER
   - DEL
@@ -167,12 +167,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LCTRL
-  - LEFT WIN
+  - {t: EISU, h: LCTRL}
+  - {t: KANA, h: LGUI}
   - LEFT ALT
-  - {t: INT HENKAN, h: '3', type: held}
+  - {t: MUHENKAN, h: '3', type: held}
   - {t: SPACE, h: '2'}
-  - {t: INT MUHENKAN, h: '1'}
+  - {t: HENKAN, h: '1'}
   - BACKSPACE
   - ENTER
   - DEL
@@ -211,12 +211,12 @@ layers:
   - KP 2
   - KP 3
   - '='
-  - LCTRL
-  - LEFT WIN
+  - {t: EISU, h: LCTRL}
+  - {t: KANA, h: LGUI}
   - LEFT ALT
-  - INT HENKAN
-  - SPACE
-  - INT MUHENKAN
+  - {t: MUHENKAN, h: '3'}
+  - {t: SPACE, h: '2'}
+  - {t: HENKAN, h: '1'}
   - BACKSPACE
   - ENTER
   - DEL
@@ -255,12 +255,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LCTRL
-  - LEFT WIN
+  - {t: EISU, h: LCTRL}
+  - {t: KANA, h: LGUI}
   - LEFT ALT
-  - INT HENKAN
-  - SPACE
-  - INT MUHENKAN
+  - {t: MUHENKAN, h: '3'}
+  - {t: SPACE, h: '2'}
+  - {t: HENKAN, h: '1'}
   - BACKSPACE
   - ENTER
   - DEL
