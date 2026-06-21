@@ -171,11 +171,10 @@
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
-
             #binding-cells = <2>;
-            flavor = "hold-preferred";  // 長押しを少し強めに優先
-            tapping-term-ms = <1000>;    // 長押し判定（好みに応じて200〜300で調整）
-            quick-tap-ms = <900>;      // タップ+長押しでリピートさせる時間
+            flavor = "hold-preferred";
+            tapping-term-ms = <1000>;
+            quick-tap-ms = <900>;
             bindings = <&mo>, <&to_layer_0>;
         };
 
