@@ -179,6 +179,15 @@
             quick-tap-ms = <900>;      // タップ+長押しでリピートさせる時間
         };
 
+     mt_custom: mt_custom {
+        compatible = "zmk,behavior-hold-tap";
+        #binding-cells = <2>;
+        flavor = "tap-preferred"; // タップを優先して送信する設定
+        tapping-term-ms = <200>;  // 200ms以上長押ししたら修飾キーとして認識
+        quick-tap-ms = <150>;     // 速い連続タップを許容する時間
+        bindings = <&kp>, <&kp>;  // 引数として <修飾キー> <通常キー> を受け取る
+       };
+
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
