@@ -21,12 +21,12 @@
 &trackball_listener {
     status = "okay";
     device = <&trackball>;
-    input-processors = <&zip_temp_layer 6 700>;
+    input-processors = <&mouse_runtime_input_processor
 
     scroller {
-        layers = <5>;
-        input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 2 5>;
-    };
+            layers = <5>;
+            input-processors = <&zip_xy_to_scroll_mapper &scroll_runtime_input_processor>;
+        };
 };
 
 &pinctrl {
