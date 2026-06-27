@@ -38,11 +38,11 @@ layers:
   - {t: LANGUAGE 2, h: LCTRL}
   - {t: LANGUAGE 1, h: LEFT WIN}
   - LEFT ALT
-  - {t: INT HENKAN, h: '3'}
+  - {t: ENTER, h: '3'}
   - {t: SPACE, h: '2'}
   - {t: INT MUHENKAN, h: '1'}
   - BACKSPACE
-  - ENTER
+  - INT4
   - DEL
   '1':
   - CAPSLOCK
@@ -58,12 +58,12 @@ layers:
   - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LANGUAGE 2
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB2'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - ENTER
