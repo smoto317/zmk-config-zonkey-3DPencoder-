@@ -52,9 +52,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: INT3, s: Sft+0x89}
+  - '7'
+  - '8'
+  - '9'
   - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -64,9 +64,9 @@ layers:
   - LANGUAGE 2
   - {t: ▽, type: trans}
   - '&mkp MB2'
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - ENTER
+  - '4'
+  - '5'
+  - '6'
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -76,9 +76,9 @@ layers:
   - {t: ▽, type: trans}
   - LANGUAGE 1
   - {t: ;, s: KP PLUS}
-  - {t: '''', s: '"'}
-  - {t: \, s: '~'}
-  - ENTER
+  - '1'
+  - '2'
+  - '3'
   - {t: ESC, h: LCTL}
   - LEFT WIN
   - LEFT ALT
@@ -87,7 +87,7 @@ layers:
   - {t: INT MUHENKAN, h: '1', type: held}
   - BACKSPACE
   - ENTER
-  - DEL
+  - '0'
   '2':
   - '1'
   - '2'
@@ -102,12 +102,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - UP ARROW
   - {t: ▽, type: trans}
